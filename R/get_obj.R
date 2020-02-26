@@ -12,11 +12,15 @@
 #'
 #' @param returnjs This paradigm indicate whether return a js_data object for further data extraction
 #'
-#' @import httr
+#' @importFrom  httr GET
+#'
+#' @importFrom  httr content
+#'
+#' @importFrom  httr add_headers
 #'
 #' @importFrom pingr is_online
 #'
-#' @import magrittr
+#' @importFrom  magrittr %>%
 #'
 #' @importFrom jsonlite fromJSON
 #'

@@ -1,10 +1,16 @@
 #' @title Original function
 #'
+#' @param obj a js_data object from get_obj funtion
+#'
+#' @param order the order of the object in the database from left to right apart from object ID, default is 1
+#'
 #' @importFrom purrr map
 #'
-#' @import magrittr
+#' @importFrom  magrittr %>%
 #'
-#' @import jsonlite
+#' @importFrom jsonlite fromJSON
+#'
+#' @importFrom jsonlite rbind_pages
 #'
 #'
 js_data_ret <- function(obj,order=1){

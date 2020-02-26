@@ -6,6 +6,11 @@
 \usage{
 js_data_ret(obj, order = 1)
 }
+\arguments{
+\item{obj}{a js_data object from get_obj funtion}
+
+\item{order}{the order of the object in the database from left to right apart from object ID, default is 1}
+}
 \description{
 Original function
 }
