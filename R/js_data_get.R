@@ -6,10 +6,11 @@
 #'
 #' @param order the order of the object in the database from left to right apart from object ID, default is 1
 #'
+#'
 #' @export
 
 
-js_data_get.js_data <- function(obj,order=1){
+js_data_get<- function(obj,order=1){
 
     UseMethod("js_data_ret")
 

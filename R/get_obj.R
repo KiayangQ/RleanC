@@ -24,6 +24,8 @@
 #'
 #' @importFrom jsonlite fromJSON
 #'
+#' @exportClass js_data
+#'
 #' @export
 
 

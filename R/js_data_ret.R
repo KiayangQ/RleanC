@@ -13,6 +13,9 @@
 #' @importFrom jsonlite rbind_pages
 #'
 #'
+#' @exportMethod js_data_ret
+#'
+#'
 js_data_ret <- function(obj,order=1){
   if (class(obj)!="js_data"){
 
