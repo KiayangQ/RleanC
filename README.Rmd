@@ -15,8 +15,6 @@ knitr::opts_chunk$set(
 
 # RleanC
 
-<!-- badges: start -->
-<!-- badges: end -->
 
 The goal of RleanC is to help R users to simplely retrieve value or data from LeanCloud. This package is a R wrapper of the RESTful API of LeanCloud. You can find more about LeanCloud RESTful API at [here](https://leancloud.cn/docs/rest_api.html)
 

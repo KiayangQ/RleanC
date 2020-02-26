@@ -3,10 +3,6 @@
 
 # RleanC
 
-<!-- badges: start -->
-
-<!-- badges: end -->
-
 The goal of RleanC is to help R users to simplely retrieve value or data
 from LeanCloud. This package is a R wrapper of the RESTful API of
 LeanCloud. You can find more about LeanCloud RESTful API at
@@ -33,8 +29,21 @@ obj <- get_obj(web="severURL",query="name of queried object",ID="AppID", KEY="Ap
 ```
 
 You can find these information after logging in LeanCloud website:
-console–App keys
+console–App keys. For example:
 
-![:center](id_key.png)
+![](man/figures/id_key.png)
 
-![:center](server.png)
+You can find your server URL on REST API
+
+![](man/figures/server.png)
+
+If you want to retrieve a js dataframe from a online jspsych experiment,
+use
+
+``` r
+
+#obj is the output of get_obj
+
+data <- js_data_get(obj)
+
+```
