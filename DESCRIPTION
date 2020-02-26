@@ -1,5 +1,5 @@
 Package: RleanC
-Title: What the Package Does (One Line, Title Case)
+Title: A R package to retrieve the data from the leanCloud
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Kaiyang",
@@ -7,7 +7,18 @@ Authors@R:
            role = c("aut", "cre"),
            email = "qkylove8@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Description: Retrieve the data from the leanCloud, and parse the js data to a dataframe.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/KiayangQ/RleanC
+BugReports: https://github.com/KiayangQ/RleanC/issues
+Suggests: 
+    testthat
+RoxygenNote: 6.1.1
+Imports: 
+    httr,
+    jsonlite,
+    purrr,
+    magrittr,
+    pingr
