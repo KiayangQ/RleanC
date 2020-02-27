@@ -47,3 +47,11 @@ use
 data <- js_data_get(obj)
 
 ```
+
+You can also create a new object through create\_obj function and upload
+it to the database
+
+``` r
+
+create_obj(web="severURL",obj_name="name of your object",body="dataframe or a json object you want to upload",ID,KEY)
+```
