@@ -2,15 +2,15 @@
 #'
 #' @description This function is a simple wrapper of leancloud RESTful API to retrieve a value or a object from leancloud database.
 #'
-#' @param web Your leancloud database RESTFUL API. You can find it in leancloud website-console-setting-app keys
+#' @param web Character. Your leancloud database RESTFUL API. You can find it in leancloud website-console-setting-app keys
 #'
-#' @param query The name of the object that you want to retrieve
+#' @param query Character. The name of the object that you want to retrieve
 #'
-#' @param ID AppID, You can find it in leancloud website-console-setting-app keys
+#' @param ID AppID. Character. You can find it in leancloud website-console-setting-app keys
 #'
-#' @param KEY AppKey, You can find it in leancloud website-console-setting-app keys
+#' @param KEY AppKey. Character. You can find it in leancloud website-console-setting-app keys
 #'
-#' @param returnjs This paradigm indicate whether return a js_data object for further data extraction
+#' @param returnjs Boolean.This paradigm indicate whether return a js_data object for further data extraction
 #'
 #' @importFrom  httr GET
 #'
